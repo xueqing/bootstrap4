@@ -37,6 +37,68 @@
         </div>
     </nav>
 
+    <div id="reserveModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Reserve a Table</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-2 col-form-label">
+                                <label for="numberofguests">Number of Guests</label>
+                            </div>
+                            <div class="form-group col-sm col-form-label">
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="num1" name="numberofguests">
+                                    <label class="form-check-label" for="num1">1</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="num2" name="numberofguests">
+                                    <label class="form-check-label" for="num2">2</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="num3" name="numberofguests">
+                                    <label class="form-check-label" for="num3">3</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="num4" name="numberofguests">
+                                    <label class="form-check-label" for="num4">4</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="num5" name="numberofguests">
+                                    <label class="form-check-label" for="num5">5</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" class="form-check-input" id="num6" name="numberofguests">
+                                    <label class="form-check-label" for="num6">6</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-sm-2 col-form-label">
+                                <label class="text" for="time">Date and Time</label>
+                            </div>
+                            <div class="form-group col-sm-4 col-form-label">
+                                <input type="text" class="form-control form-control-sm mr-1" id="date" placeholder="Date">
+                            </div>
+                            <div class="form-group col-sm-4 col-form-label">
+                                <input type="text" class="form-control form-control-sm mr-1" id="time" placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Reserve</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
             <!-- Modal content-->
