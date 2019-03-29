@@ -3,3 +3,4 @@ node_modules
 package-lock.json
 index.1.html
 index.2.html
+dist
